@@ -18,3 +18,4 @@ env/
 # Local development
 .env
 .env.local
+.DS_Store
