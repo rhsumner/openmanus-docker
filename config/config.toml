@@ -1,0 +1,22 @@
+# OpenManus Configuration
+
+# LLM Service Configuration
+[llm.default]
+api_key = "111"  # Your API key for the language model service
+model = "qwen2.5-coder-14b-instruct"  # Model to use
+base_url = "http://192.168.1.98:1234/v1"  # API endpoint URL
+api_type = "openai"  # Can be "openai" or "azure"
+api_version = ""  # Required for Azure OpenAI
+temperature = 0.7
+max_tokens = 2000
+
+# Web Interface Settings
+[web]
+host = "0.0.0.0"
+port = 8000
+debug = false
+
+# Logging Configuration
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
