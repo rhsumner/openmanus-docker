@@ -23,8 +23,8 @@ This directory contains Docker configuration for running OpenManus Web in a cont
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/YunQiAI/OpenManusWeb.git
-cd OpenManusWeb
+git clone https://github.com/rhsumner/openmanus-docker.git
+cd openmanus-docker
 ```
 
 2. Run the setup script:
